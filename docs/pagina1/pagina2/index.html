@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Municipios del Estado de Colima</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+    .municipio-card {
+      width: 250px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      overflow: hidden;
+    }
+    .municipio-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .municipio-card h2 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #333;
+    }
+    .municipio-card p {
+      font-size: 14px;
+      color: #666;
+      margin: 5px 0;
+    }
+    .municipio-card .conoce-mas-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0 20px;
+      color: #fff;
+      background-color: #007bff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .municipio-card .conoce-mas-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<h1 style="text-align:center; padding: 20px;">Municipios del Estado de Colima</h1>
+
+<div class="container">
+  <!-- Ejemplo de un municipio, repite este bloque para cada municipio -->
+  <div class="municipio-card">
+    <img src="colima.jpeg" alt="Imagen representativa de Colima">
+    <h2>Colima</h2>
+    <p><strong>Clima:</strong> Cálido subhúmedo</p>
+    <p><strong>Población:</strong> 146,904</p>
+    <a href="https://www.colima.gob.mx" class="conoce-mas-btn">Conoce más</a>
+  </div>
+
+  <div class="municipio-card">
+    <img src="manzanillo.jpeg" alt="Imagen representativa de Manzanillo">
+    <h2>Manzanillo</h2>
+    <p><strong>Clima:</strong> Cálido húmedo</p>
+    <p><strong>Población:</strong> 191,839</p>
+    <a href="https://www.manzanillo.gob.mx" class="conoce-mas-btn">Conoce más</a>
+  </div>
+
+  <div class="municipio-card">
+    <img src="villa.jpeg" alt="Imagen representativa de Villa de Álvarez">
+    <h2>Villa de Álvarez</h2>
+    <p><strong>Clima:</strong> Cálido subhúmedo</p>
+    <p><strong>Población:</strong> 128,712</p>
+    <a href="https://www.villadealvarez.gob.mx" class="conoce-mas-btn">Conoce más</a>
+  </div>
+
+  <!-- Añade más tarjetas de municipios aquí siguiendo el mismo formato -->
+</div>
+
+</body>
+</html>
+
